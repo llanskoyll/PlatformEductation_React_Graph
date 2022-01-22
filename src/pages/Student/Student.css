@@ -1,0 +1,139 @@
+.student-main {
+    margin-top: 100px;
+}
+
+.semesters-list {
+    border: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.student-curriculum {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.student-curriculum:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #999;
+    bottom: -0.2em;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.student-semesters p {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: revert;
+}
+.student-semesters {
+    font-size: 18px;
+    margin: 0;
+    font-weight: revert;
+}
+.grades_two, .grades_three, .grades_four, .grades_five {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.grades_two {
+    background-color: #ff7636;
+    border: 1px solid #ff7636;
+}
+.grades_three {
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+}
+.grades_four {
+    background-color: #99cc33;
+    border: 1px solid #99cc33;
+}
+
+.grades_five {
+    background-color: #29cf00;
+}
+.btnChangeSemester {
+    font-size: 18px;
+    padding: 5px;
+    background-color: transparent;
+    margin-top: 15px;
+    cursor: pointer;
+    border:1px  solid #000;
+}
+.btnChangeSemester:hover {
+    color: #00BFFF;
+    border:1px solid  #00BFFF;
+}
+.headcheckDiscipline,.checkDiscipline {
+    text-align: center;
+}
+.headcheckDiscipline {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.checkDiscipline, .DisciplineName {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    position: relative;
+}
+.DisciplineName {
+    cursor: pointer;
+    transition: background-color 1s linear;
+}
+.DisciplineName:hover:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #008cba;
+}
+@media (max-width: 1440px) and (min-width: 769px) {
+    .SubjectItem {
+        font-size: 12px;
+    }
+    .grade {
+        font-size: 12px;
+    }
+    .student-semesters p{
+        font-size: 16px;
+    }
+    .student-semesters option,select {
+        font-size: 14px;
+    }
+    .student-curriculum {
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+    .student-main {
+        margin-top: 10px;
+    }
+    .SubjectItem {
+        font-size: 14px;
+    }
+    .grades_two, .grades_three, .grades_four, .grades_five {
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+    }
+    .grade {
+        font-size: 14px;
+    }
+    .student-semesters p{
+        font-size: 12px;
+    }
+    .student-semesters option,select {
+        font-size: 14px;
+    }
+    .student-curriculum {
+        font-size: 16px;
+    }
+}

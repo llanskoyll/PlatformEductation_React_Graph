@@ -1,0 +1,13 @@
+.loading {
+    width: 100px;
+    height: 100px;
+}
+.loadingContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animationBody {
+    font-size: 28px;
+    color: #000;
+}

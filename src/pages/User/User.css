@@ -1,0 +1,56 @@
+.userPage {
+    margin-top: 100px;
+    border: 1px solid #c4c4c4;
+    box-shadow: 0px 0px 25px #c4c4c4;
+    padding-bottom: 10px;
+}
+.userInfo {
+    background-color: #212529;
+    padding: 25px;
+    color: #fff;
+}
+.userEmailCheck, .userGroups {
+    margin-top: 10px;
+}
+.userMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UserImage {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+}
+.confirmed {
+    padding: 5px;
+    background-color: #198754;
+    color: #fff;
+    border-radius: 5px;
+}
+.confirmedNot {
+    padding: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 5px;
+}
+.userPersonal {
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .userPage {
+        margin-top: 25px;
+    }
+    .userMain {
+        display: block;
+    }
+    .userImgDiv {
+        display: flex;
+        justify-content: center;
+    }
+    .userEmail {
+        display: flex;
+        justify-content: center;
+    }
+
+}

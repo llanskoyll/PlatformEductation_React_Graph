@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+.links {
+    color: #fff;
+    text-decoration: none;
+}
+.linksItem{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color .2s linear;
+}
+.linksItemNews:hover {
+    color: #999;
+}
+.links:hover {
+    color: #999;
+}
+
+.linksUnd {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.btn{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.linksUnd:hover {
+    color: #999;
+}
+.btn:hover {
+    color: #fff;
+}
+.notification {
+    position: relative;
+    border-bottom: 1px solid #999;
+    overflow: hidden;
+}
+.notificationTitle {
+    color: #00BFFF;
+}
+.notificationMessage {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+.notificationMessage p {
+    overflow: hidden;
+}
+.notification:hover {
+    color: #000;
+}
+@media (max-width: 1440px) and (min-width: 769px) {
+    .links, .btn {
+        font-size: 16px;
+    }
+
+    .linksUnd {
+        font-size: 14px;
+    }
+}
+@media (max-width: 425px) and (min-width: 320px) {
+    .links, .btn{
+        font-size: 14px;
+    }
+
+    .linksUnd {
+        font-size: 12px;
+    }
+}

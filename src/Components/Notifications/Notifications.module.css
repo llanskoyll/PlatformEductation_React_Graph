@@ -1,0 +1,36 @@
+.notificationsLink {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    position: relative;
+}
+
+.notificationsLink:hover:after {
+    content: "";
+    left: 0;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #999;
+}
+.notificationsLink a {
+    text-decoration: none;
+}
+.notificationsLinkTitle {
+    font-size: 16px;
+    color: #00BFFF;
+}
+.notificationsLinkMessage {
+    font-size: 16px;
+    color: #000;
+}
+.NotificationsAll {
+    margin-top: 100px;
+}
+.notificationsAllLinkMessage a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
